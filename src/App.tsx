@@ -445,7 +445,7 @@ const AngleAnimation = () => {
       
       gsap.to(obj, {
         angle: 360,
-        duration: 4,
+        duration: 10,
         repeat: -1,
         ease: "none",
         onUpdate: () => {
